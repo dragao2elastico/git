@@ -5,7 +5,7 @@ const git = {
 }
 module.exports = git
 /**
- git add .
- git commit -m editado
- git push origin main
+git add .
+git commit -m editado
+git push origin main
  */
