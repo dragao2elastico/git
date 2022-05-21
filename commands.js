@@ -4,3 +4,8 @@ const git = {
     "post": "git push origin main"
 }
 module.exports = git
+/**
+ git add .
+ git commit -m editado
+ git push origin main
+ */
