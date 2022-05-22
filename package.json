@@ -6,7 +6,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "setup": "npm i && node ."
   },
   "repository": {
     "type": "git",
