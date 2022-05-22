@@ -5,6 +5,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "test": "echo \"tudo certo!\"",
     "start": "nodemon index.js",
     "dev": "nodemon index.js",
     "setup": "npm i && node .",
