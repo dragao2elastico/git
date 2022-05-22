@@ -1,0 +1,27 @@
+{ 
+  "name": "git",
+  "description": "",
+  "version": "1.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragao2elastico/git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragao2elastico/git/issues"
+  },
+  "homepage": "https://github.com/dragao2elastico/git#readme",
+  
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "npx": "^10.2.2"
+  }
+  
+}
