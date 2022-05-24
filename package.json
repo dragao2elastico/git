@@ -1,1 +1,28 @@
-{"name":"git","description":"","version":"1.0.1","main":"index.js","scripts":{"test":"echo \"tudo certo!\"","start":"nodemon index.js","dev":"nodemon index.js","setup":"npm i && node .","post":"git add . && git commit -m edited && git push origin main"},"repository":{"type":"git","url":"git+https://github.com/dragao2elastico/git.git"},"author":"","license":"ISC","bugs":{"url":"https://github.com/dragao2elastico/git/issues"},"homepage":"https://github.com/dragao2elastico/git#readme","dependencies":{"express":"^4.18.1","moesif-nodejs":"^3.2.2","nodemon":"^2.0.16","npx":"^10.2.2"}}
+{
+    "name":"git",
+    "description":"",
+    "version":"1.0.1",
+    "main":"index.js",
+    "scripts":{
+        "test":"echo \"tudo certo!\"",
+        "start":"nodemon index.js",
+        "dev":"git add . && git commit -m edited && git push origin main && nodemon index.js",
+        "setup":"npm i && node .",
+        "post":"git add . && git commit -m edited && git push origin main"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git+https://github.com/dragao2elastico/git.git"
+        },
+    "author":"",
+    "license":"ISC",
+    "bugs":{
+        "url":"https://github.com/dragao2elastico/git/issues"
+    },
+    "homepage":"https://github.com/dragao2elastico/git#readme",
+    "dependencies":{
+        "express":"^4.18.1",
+        "nodemon":"^2.0.16",
+        "npx":"^10.2.2"
+    }
+}

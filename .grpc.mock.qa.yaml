@@ -1,0 +1,22 @@
+---
+fileVersion: v1
+serverName: Greet
+protoFile: "/src/Protos/greet.proto"
+channel:
+  credentials:
+  - type: ip-white-list
+    allowedIps:
+      - 177.234.192.*
+calls:
+- method: SayHello
+  credentials:
+  - type: basic-auth
+    user: john
+    password: "$RSA2048:encryptedPassword"
+  request:
+    body:
+      Name: "John"
+  response:
+    body:
+      Message: "Hello John!"
+    status: OK

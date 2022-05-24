@@ -1,17 +1,17 @@
-// 1. Import Modules
-const express = require('express');
-const app = express();
-const moesif = require('moesif-nodejs');
+// Modulos
+var express = require('express');
+var app = express();
 
-// 2. Set the options, the only required field is applicationId
-const moesifMiddleware = moesif({
-  applicationId: 'Your Application Id',
+var port = 3000;
+var api = [
+  { name: "a", value: "b"},
+  { name: "c", value: "d"}
+]
 
-  // Optional hook to link API calls to users
-  identifyUser: function (req, res) {
-    return req.user ? req.user.id : undefined;
-  },
-});
+app.get('/', (req, res) => {
+    res.send("Hello World!")
+})
 
-// 3. Enable the Moesif middleware to start logging incoming API Calls
-app.use(moesifMiddleware);
+app.listen(port, () => {
+console.log(`Aplicativo logado com êxito em: http://localhost:${port}`)
+})
