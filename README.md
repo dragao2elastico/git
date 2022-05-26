@@ -1,4 +1,4 @@
-## Um simples projeto git e moesif (uma api)!
+## Um simples projeto git (uma api)!
 
 ## Como instalar
 
